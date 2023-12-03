@@ -1,3 +1,6 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Red+Hat+Display&display=swap');
+
 .App {
   text-align: center;
 }
@@ -14,14 +17,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Gasoek One';
+  color: black;
 }
 
 .App-link {
