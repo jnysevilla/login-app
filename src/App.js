@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { 
-  BrowserRouter as Router,
-  Route,
-  Switch
-} from 'react-router-dom';
+// import { 
+//   BrowserRouter as Router,
+//   Route,
+//   Routes
+// } from 'react-router-dom';
 
 import './App.css';
 import Button from './components/Button/Button.js';
