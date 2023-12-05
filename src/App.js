@@ -1,4 +1,4 @@
-// App.js
+// App.js - This is will be the main page of the React app
 import React, { useState } from 'react';
 import './App.css';
 import { Login, UnsuccessfulLogin, SuccessfulLogin } from "../src/components/login";

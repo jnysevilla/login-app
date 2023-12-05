@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Red+Hat+Display&display=swap');
 
 :root {
-  --primary: #D0E3CC;
-  --secondary: #F7FFDD;
-  --accent1: #EFD780;
-  --accent2: #DBA159;
+  --primary: rgb(224, 224, 226);
+  --secondary: rgb(65, 103, 136);
+  --accent1: rgb(115, 137, 174);
+  --accent2: rgb(181, 186, 208);
   --text-font: "Red Hat Display";
   --header-font: "Gasoek One";
 }
@@ -24,7 +24,3 @@ code {
     monospace;
 }
 
-h1 {
-  font-size: 36px;
-  font-weight: normal;
-}
