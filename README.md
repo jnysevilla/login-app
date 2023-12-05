@@ -46,7 +46,7 @@ Follow these instructions to help you set up and run the project on your local m
    git clone https://github.com/jnysevilla/login-app.git
    ```
 
-2. Navigate to the project directory:
+2. If you're not already in the project directory, navigate to it using the following command:
 
     ```bash
     cd login-app
@@ -57,6 +57,13 @@ Follow these instructions to help you set up and run the project on your local m
     ```bash
     npm install
     ```
+
+    >[!NOTE]  
+    > If you encounter dependency resolution issues during installation, you can try using the `--force` flag with the following command:
+
+      ```bash
+      npm install --force
+      ```
 
 ## Usage
 
