@@ -5,10 +5,11 @@
 This react *"login form"* app is a simple authentication application with a login page. Users can enter their email and password, and if the credentials are correct, they are redirected to a successful login screen. If the login attempt is unsuccessful, users are redirected to an unsuccessful login screen where they can try logging in again. The successful login screen displays a welcome message, a kitty icon, and a Spotify embed. Users can log out from the successful login screen to return to the login page. The app uses the `useState` hook for state management and implements conditional rendering to display different screens based on the login status.
 
 ## Demo
-<video width="640" height="360" controls>
-  <source src="assets/videos/demo_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+
+https://github.com/jnysevilla/login-app/assets/116690031/1d19d6c5-03ce-487c-a1de-217fb2276293
+
+
 
 
 
