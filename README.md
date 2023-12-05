@@ -59,12 +59,11 @@ Follow these instructions to help you set up and run the project on your local m
     npm install
     ```
 
-    >[!NOTE]  
-    > If you encounter dependency resolution issues during installation, you can try using the `--force` flag with the following command:
-
-      ```bash
-      npm install --force
-      ```
+  > [!NOTE]  
+  > If you encounter dependency resolution issues during installation, you can try using the `--force` flag with the following command:
+  > ```bash
+  > npm install --force
+  > ```
 
 ## Usage
 
@@ -76,7 +75,7 @@ Follow these instructions to help you set up and run the project on your local m
 2. To view the app, open your browser and visit http://localhost:3000.
 3. Explore the login page. 
 
-## Homework Submission
+### Homework Submission
 This homework is submitted by **Jenny Sevilla** for the FullStack Specialization Homework 3.
 
 [^1]: Please follow this [link](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) on how to install these packages.
