@@ -26,7 +26,7 @@ export const Login = (props) => {
     return(
         <div className='auth-form-container'>
 
-            <h2>Login</h2>
+            <h1>Welcome!</h1>
 
             <form className='login-form'  onSubmit={handleSubmit}>
 
@@ -53,7 +53,7 @@ export const UnsuccessfulLogin = ({ onTryAgain }) => {
     <div className='auth-form-container'>
       <h1>Login Failed</h1>
       <p>Wrong credentials. Please try again.</p>
-      <button onClick={onTryAgain}>Go Back and Try Again</button>
+      <button onClick={onTryAgain}>Try again</button>
     </div>
   );
 };
@@ -63,7 +63,7 @@ export const UnsuccessfulLogin = ({ onTryAgain }) => {
 export const SuccessfulLogin = ({ onLogout }) => {
     return (
       <div className='auth-form-container'>
-        <h1>Successfully Logged In</h1>
+        <h1>Successfully<br />Logged In</h1>
         {/* Additional content for a successfully logged-in state */}
         <button onClick={onLogout}>Logout</button>
       </div>

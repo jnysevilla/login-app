@@ -4,10 +4,15 @@
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(79deg, pink, whitesmoke 48%, lightblue);
-  color: palevioletred;
+  background-image: linear-gradient(78deg, var(--primary), var(--accent2) 48%, var(--primary));
+  color: var(--accent1);
 }
 
+h1 {
+  font-size: 36px;
+  font-weight: normal;
+  font-family: var(--header-font);
+}
 
 .button-form-container, 
 .login-form {
@@ -15,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   font-family: "Red Hat Display";
-
+  width: 500px;
 }
 
 label {
@@ -24,6 +29,7 @@ label {
 }
 
 input {
+  width: 200px;
   margin: 0.5rem 0;
   padding: 1rem;
   border: none;
@@ -32,30 +38,28 @@ input {
 
 button {
   border: none;
-  background-color: beige;
-  padding: 20px;
+  background-color: var(--accent2);
+  padding: 15px;
+  margin: 5px;
   border-radius: 10px;
   cursor: pointer;
-  color:rgb(186, 137, 209);
+  color: whitesmoke;
+  font-weight: bold;
 }
 
-.link-btn {
-  background: none;
-  color: rgb(186, 137, 209);
-  text-decoration: underline;
-}
 
-.auth-form-container,
-.login-form,
-.register-form {
+.auth-form-container {
   display: flex;
   flex-direction: column;
+  background-color: rgb(224, 224, 226, 0.6);
+  backdrop-filter: blur(0.1px);
+  box-shadow: 1px 1px 8px var(--accent2);
 }
 
 @media screen and (min-width: 600px) {
   .auth-form-container {
     padding: 5rem;
-    border: 1px solid white;
+    border: 1px solid whitesmoke;
     border-radius: 10px;
     margin: 0.5rem;
   }
